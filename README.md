@@ -1,0 +1,6 @@
+# Understanding graph convolution for semi-supervised classification
+
+The directory `src` contains the source code for our ICML 2021 paper: [Graph Convolution for Semi-Supervised Classification: Improved Linear Separability and Out-of-Distribution Generalization](http://proceedings.mlr.press/v139/baranwal21a.html). Here's [the arXiv version](https://arxiv.org/abs/2102.06966) of the same paper.
+
+## Abstract
+Recently there has been increased interest in semi-supervised classification in the presence of graphical information. A new class of learning models has emerged that relies, at its most basic level, on classifying the data after first applying a graph convolution. To understand the merits of this approach, we study the classification of a mixture of Gaussians, where the data corresponds to the node attributes of a stochastic block model. We show that graph convolution extends the regime in which the data is linearly separable by a factor of roughly 1/sqrt(D), where D is the expected degree of a node, as compared to the mixture model data on its own. Furthermore, we find that the linear classifier obtained by minimizing the cross-entropy loss after the graph convolution generalizes to out-of-distribution data where the unseen data can have different intra- and inter-class edge probabilities from the training data.
